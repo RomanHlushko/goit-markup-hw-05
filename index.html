@@ -459,9 +459,36 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <p class="footer-name-subscribe">Subscribe</p>
+          <form class="footer-subscribe-form">
+            <div class="">
+              <label class="footer-subscribe-label" for="user-subscribe">
+                <input
+                  class="footer-subscribe-input"
+                  type="email"
+                  name="user-subscribe"
+                  id="user-subscribe"
+                  placeholder="E-mail"
+                />
+              </label>
+            </div>
+          </form>
+        </div>
+        <div>
+          <button class="footer-subscribe-btn" type="button">
+            Subscribe
+            <svg class="footer-subscribe-svg">
+              <use
+                class="footer-subscribe-icon"
+                href="./images/icons.svg#icon-Frame"
+              ></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop" is-open>
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon">
@@ -530,7 +557,7 @@
               ><input
                 class="modal-checkbox"
                 type="checkbox"
-                name=""
+                name="user-checkbox"
                 value=""
                 required
             /></label>
