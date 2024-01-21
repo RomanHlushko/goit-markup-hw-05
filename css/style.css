@@ -638,9 +638,9 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover > .modal-close-icon,
-.modal-close-btn:focus > .modal-close-icon {
-  fill: #4d5ae5;
+.modal-close-btn:hover + .modal-close-icon,
+.modal-close-btn:focus + .modal-close-icon {
+  fill: #ffffff;
 }
 
 .close-icon {
@@ -800,6 +800,10 @@ img {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration-line: underline;
+}
+
+.modal-link {
+  color: #4d5ae5;
 }
 
 .modal-button {
