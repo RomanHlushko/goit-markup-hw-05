@@ -609,6 +609,11 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.modal:hover,
+.modal:focus {
+  fill: #ffffff;
+}
+
 .modal-close-btn {
   position: absolute;
   top: 24px;
