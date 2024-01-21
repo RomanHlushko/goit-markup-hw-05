@@ -609,11 +609,6 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.modal:hover,
-.modal:focus {
-  fill: #ffffff;
-}
-
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -636,6 +631,7 @@ img {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-close-icon {
@@ -699,7 +695,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
