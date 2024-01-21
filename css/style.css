@@ -698,6 +698,10 @@ img {
   margin-bottom: 16px;
 }
 
+.field-one {
+  margin-bottom: 8px;
+}
+
 .modal-label {
   display: block;
   color: #8e8f99;
