@@ -564,6 +564,8 @@ img {
   margin: 16px;
   cursor: pointer;
   border: none;
+  min-width: 165px;
+  height: 40px;
 }
 .footer-subscribe-svg {
   color: #ffffff;
